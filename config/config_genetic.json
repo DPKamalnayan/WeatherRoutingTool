@@ -1,0 +1,45 @@
+{
+  "ALGORITHM_TYPE": "genetic",
+  "DEFAULT_ROUTE": [33.96, 138.31, 21.38, 114.87],
+  "DEPARTURE_TIME": "2026-03-18T21:00Z",
+  "DEFAULT_MAP": [18.0, 113.0, 37.0, 142.0],
+  "BOAT_DRAUGHT_AFT": 10,
+  "BOAT_DRAUGHT_FORE": 10,
+  "INTERMEDIATE_WAYPOINTS": [],
+  "CONSTRAINTS_LIST": ["land_crossing_global_land_mask","water_depth","on_map"],
+
+  "TIME_FORECAST": 150,
+  "ROUTING_STEPS": 120,
+  "DELTA_TIME_FORECAST": 3,
+  "DELTA_FUEL": 500,
+
+ 
+
+  "COURSES_FILE": "/home/kamal/mnt/QGIS_Plugin_Weather_Routing_Tool/WeatherRoutingTool/tests/data",
+  "DEPTH_DATA": "/home/kamal/mnt/QGIS_Plugin_Weather_Routing_Tool/WeatherRoutingTool/tests/data/depth_data.nc",
+  "WEATHER_DATA": "/home/kamal/mnt/QGIS_Plugin_Weather_Routing_Tool/WeatherRoutingTool/tests/data/weather_data.nc",
+  "ROUTE_PATH": "/home/kamal/mnt/QGIS_Plugin_Weather_Routing_Tool/WeatherRoutingTool/tests/data",
+
+  "ROUTER_HDGS_SEGMENTS": 30,
+  "ROUTER_HDGS_INCREMENTS_DEG": 3,
+  "ISOCHRONE_PRUNE_SECTOR_DEG_HALF": 91,
+  "ISOCHRONE_PRUNE_SEGMENTS": 20,
+
+  "ISOCHRONE_MINIMISATION_CRITERION": "squareddist_over_disttodest",
+  "ISOCHRONE_NUMBER_OF_ROUTES": 1,
+
+  "GENETIC_NUMBER_GENERATIONS": 20,
+  "GENETIC_NUMBER_OFFSPRINGS": 2,
+  "GENETIC_POPULATION_SIZE": 20,
+  "GENETIC_POPULATION_TYPE": "isofuel",
+
+  "BOAT_TYPE": "direct_power_method",
+  "BOAT_BREADTH": 32,
+  "BOAT_FUEL_RATE": 167,
+  "BOAT_HBR": 2,
+  "BOAT_LENGTH": 180,
+  "BOAT_SMCR_POWER" : 6502,
+  "BOAT_SMCR_SPEED" : 15,
+  "BOAT_SPEED": 8
+
+}
