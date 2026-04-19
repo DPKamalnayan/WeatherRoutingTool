@@ -183,3 +183,6 @@ cython_debug/
 .pypirc
 
 wrt_qgis_plugin/
+
+tests/data/depth_data.nc
+tests/data/weather_data.nc
